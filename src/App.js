@@ -10,7 +10,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route index element={<About />} />
+          <Route path="/react-website-v2" element={<About />} />
           <Route path="/react-website-v2/about" element={<About />}/>
           <Route path="/react-website-v2/projects" element={<Projects />}/>
           <Route path="*" element={<NoPage />} />
