@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-website-v2/static/css/main.dacee4fa.css",
+    "main.js": "/react-website-v2/static/js/main.c347718b.js",
+    "index.html": "/react-website-v2/index.html",
+    "main.dacee4fa.css.map": "/react-website-v2/static/css/main.dacee4fa.css.map",
+    "main.c347718b.js.map": "/react-website-v2/static/js/main.c347718b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dacee4fa.css",
+    "static/js/main.c347718b.js"
+  ]
+}
