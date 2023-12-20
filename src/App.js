@@ -11,8 +11,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<About />} />
-          <Route path="/about" element={<About />}/>
-          <Route path="/projects" element={<Projects />}/>
+          <Route path="/react-website-v2/about" element={<About />}/>
+          <Route path="/react-website-v2/projects" element={<Projects />}/>
           <Route path="*" element={<NoPage />} />
         </Routes>
       </BrowserRouter>
