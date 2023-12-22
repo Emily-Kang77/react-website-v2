@@ -30,10 +30,10 @@ export default function renderSidebar() {
             {/* MAKE BUTTONS LINK TO OTHER PAGES PROPERLY  */}
             <ul className="sidebar-links">
                 <li>
-                    <a href="/react-website-v2/about"><button type="button" className="pill">About</button></a>
+                    <a href="#/react-website-v2/about"><button type="button" className="pill">About</button></a>
                 </li>
                 <li>
-                    <a href="/react-website-v2/projects"><button type="button" className="pill">Projects</button></a>
+                    <a href="#/react-website-v2/projects"><button type="button" className="pill">Projects</button></a>
                 </li>
                 <li><button type="button" className="pill">Gallery</button>
                 </li>
