@@ -1,4 +1,4 @@
-This is personal website that lists stuff from my resume. 
+This is personal website that lists stuff from my resume. [link](https://emily-kang77.github.io/react-website-v2/)
 
 [X] Spice up the about page with background picture, maybe horizontal sections with some other text on it. Experiment 
 
