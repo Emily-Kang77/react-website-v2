@@ -4,8 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Fjalla+One&family=Ubuntu+Mono:ital,wght@0,700;1,700&display=swap');
-body {
+html, body {
     font-family: 'DM Sans', sans-serif;
+    overflow: auto;
     /* background-color: black;
     color: rgb(216, 216, 216) */
 }
@@ -40,6 +41,10 @@ li {
 
 a {
     text-decoration: underline;
+}
+
+a:visited {
+    color: blue;
 }
 
 a:hover {
@@ -114,12 +119,26 @@ a:hover {
     align-items: row;
 } */
 
+/**** BODY CODE ******/
+
+.bar {
+    margin-left: 14%;
+    padding: 3%;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 57%, rgba(0,212,255,1) 100%); */
+    /* background: rgb(2,0,36);
+background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 0%, rgba(255,192,118,1) 53%, rgba(255,138,0,1) 100%, rgba(255,255,255,0.8201781200761554) 100%); */
+
+}
+
 .my-text {
     flex-grow: 1;
     position: relative;
-    margin-left: 18%;
+    margin-left: 14.5%;
     margin-top: 50px;
     font-size: 16px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .my-text.intro {
@@ -127,11 +146,14 @@ a:hover {
 }
 
 .box {
+    color: black;
+    font-size: 18px;
     background-color: rgb(212, 212, 212);
     border-radius: 20px;
     padding: 20px;
     padding-top: 3px;
     margin: 10px;
+    box-shadow: 10px 5px 5px rgb(126, 75, 71);
 }
 
 .box > ul > li {

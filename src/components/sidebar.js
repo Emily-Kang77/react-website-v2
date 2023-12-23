@@ -35,8 +35,6 @@ export default function renderSidebar() {
                 <li>
                     <a href="/react-website-v2/projects"><button type="button" className="pill">Projects</button></a>
                 </li>
-                <li><button type="button" className="pill">Gallery</button>
-                </li>
             </ul>
             
           </div>
